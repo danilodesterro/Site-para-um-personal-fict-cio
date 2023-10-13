@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    text-decoration: none;
+    
+}
+
+body {
+    background: linear-gradient(235deg, #050505b6 16.93%, rgba(6, 6, 6, 0.995) 61.86%);
+
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFEFE;
+    font-family: righteous;
+    margin-left: 150px;
+    padding: 10px;
+    border-bottom:solid 0.4px;
+    font-weight: 400;
+
+}
+
+.titulo-cabecalho {
+    margin-left: 150px;
+    font-size: 40px;
+
+
+
+}
+
+
+
+
+
+.elementos-cabecalho {
+    display: flex;
+    gap: 35px;
+    color: #FFFEFE;
+    font-family: sarala, sans serifs;
+    margin-right: 150px;
+    font-weight: 400;
+}
+
+.item-texto-cabecalho {
+    color:#FFFEFE;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.item-texto-cabecalho:hover {
+    background-color: #787878;
+    border-radius: 80px;
+
+}
+
+.imagem-conteudo-principal {
+  width: 750px;
+  height: 598px;
+
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-secundario {
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-around;
+}
+
+.titulo-conteudo-secundario {
+    font-family: righteous;
+    font-weight: 400;
+    color: #FFFEFE;
+    margin: 50px;
+}
+
+.texto-conteudo-secundario {
+    font-family: sarala, sans serifs;
+    color: #FFFEFE;
+    font-weight: 300;
+    margin-bottom: auto;
+}
+
+.botao {
+    font-family: sarala, sans serifs;
+    font-size: 20px;
+    font-weight: 500;
+    width: 120px;
+    height: 55px;
+    border-radius: 100px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #787878 0%, rgba(64, 51, 51, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: Righteous;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+    .botao:hover {
+        background-color: #787878;
+        
+
+
+
+    }
+
+.botao-assine-texto-ao-redor {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+
+
+}
+
+.rodape {
+    margin: 50px;
+    color: #FFFEFE;
+    font-family: Righteous;
+    border-top: solid 0.4px;
+}
+
+.texto-rodape {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
